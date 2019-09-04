@@ -30,8 +30,9 @@ def main():
     print("hello! " + name1 + " shall we start the game")
     d = str(input("enter the guessing word:"))
     print('please give to apposite person')
-    f = int(input("how many chances you need to proceed(1 to 15):"))
     name2 = str(input("enter the name"))
+    f = int(input("how many chances you need to proceed(1 to 15):"))
+
     a = []
     for i in d:
         a.append('*')
